@@ -3,19 +3,19 @@ Lafrance ; Émilienne ; f ; 6/20/1999 ; Bobigny
 Normandeau ; Lucien ; m ; 7/14/1986 ; Saint-Herblain
 Duval ; Calvin ; m ; 8/24/1913 ; Belfort
 Lemieux ; Célio ; m ; 10/14/1954 ; Pessac
-Meilleur ; Vivien ; m ; 6/28/1914 ; Albi
+Meilleur ; Vivien ; m ; 1914 ; Albi
 Carignan ; Jules ; m ; 11/14/1955 ; Angers
 Hurtubise ; Sylvie ; f ; 10/12/1924 ; Créteil
 Marin ; Léa ; f ; 7/8/1970 ; Bastia
 Hénault ; Constance ; f ; 3/17/1972 ; Castres
 Dumoulin ; Flavie ; f ; 1/8/1992 ; Cherbourg-en-Cotentin
-Dastous ; Célio ; m ; 5/12/1987 ; L'Haÿ-les-Roses
+Dastous ; Célio ; m ; 12/1987 ; L'Haÿ-les-Roses
 Martin ; Fabiola ; f ; 10/25/1975 ; Mantes-la-Jolie
 Faubert ; Julie ; f ; 3/4/1900 ; Montélimar
 Mallette ; Victoire ; f ; 4/10/1959 ; Lille
 Marcotte ; Cécilia ; f ; 2/3/1985 ; Plaisir
 Brazeau ; Laury ; f ; 9/12/1906 ; Le Mans
-St-Pierre ; Fabien ; m ; 8/27/1936 ; Laval
+St-Pierre ; Fabien ; m ; aout 1936 ; Laval
 Deblois ; Olivier ; m ; 8/4/1910 ; Dunkerque
 Bois ; Livia ; f ; 3/7/1947 ; Saint-Louis
 Demers ; Gatien ; m ; 3/21/1984 ; Alfortville
@@ -23,7 +23,7 @@ Forcier ; Saturnin ; m ; 3/4/1996 ; La Possession
 Gilbert ; Lucie ; f ; 12/20/1951 ; Montpellier
 Hélie ; Justine ; f ; 7/14/1905 ; Rueil-Malmaison
 Robert ; Sylvain ; m ; 12/2/1968 ; Saint-Martin-d'Hères
-Bouffard ; Gina ; f ; 7/15/1964 ; Antony
+Bouffard ; Gina ; f ; ; Antony
 Boulet ; Maurice ; m ; 7/20/1934 ; Paris
 Laporte ; Virginie ; f ; 6/14/1910 ; Saint-Herblain
 Tellier ; Clémence ; f ; 1/9/1922 ; Villeurbanne
@@ -31,8 +31,8 @@ Surprenant ; Constance ; f ; 5/16/1916 ; Matoury
 Bouthillier ; Florence ; f ; 9/9/1911 ; Massy
 Nadeau ; Lucien ; m ; 7/18/1901 ; Arras
 Sabourin ; Dominique ; f ; 9/25/1923 ; Arles
-Bacon ; Sabin ; m ; 2/28/1992 ; Vénissieux
-Cantin ; Émeline ; f ; 12/18/1944 ; Conflans-Sainte-Honorine
+Bacon ; Sabin ; m ; 28 février 1992 ; Vénissieux
+Cantin ; Émeline ; f ; decembre 1944 ; Conflans-Sainte-Honorine
 Imbeault ; Sylvain ; m ; 9/13/1959 ; Les Abymes
 Gareau ; Julien ; m ; 9/3/1977 ; Clamart
 Lemieux ; Octave ; m ; 8/9/1917 ; Valenciennes
@@ -59,13 +59,13 @@ Vézina ; Sixte ; m ; 9/11/1929 ; La Ciotat
 Taillefer ; Livia ; f ; 9/23/1928 ; Savigny-sur-Orge
 Comeau ; Justine ; f ; 2/18/1973 ; Saint-André
 Ricard ; Gina ; f ; 8/22/1911 ; Châtellerault
-Jolicoeur ; Cécile ; f ; 4/16/1968 ; Talence
+Jolicoeur ; Cécile ; f ; 16 mars 1968 ; Talence
 Magnan ; Laure ; f ; 4/24/1926 ; Paris
 Métivier ; Julie ; f ; 2/21/1952 ; Villeurbanne
 Champoux ; Fabiola ; f ; 1/26/1935 ; Courbevoie
 Brisson ; Sylvain ; m ; 3/17/1942 ; Le Tampon
 Campbell ; Pauline ; f ; 9/17/1987 ; Romans-sur-Isère
-Primeau ; Luce ; f ; 11/21/1955 ; Paris
+Primeau ; Luce ; f ; 11/1955 ; Paris
 Doyon ; Vivien ; m ; 9/20/1916 ; Saint-Germain-en-Laye
 Hallé ; Constance ; f ; 3/10/1988 ; Épinal
 Bourgault ; Maxime ; m ; 7/27/1915 ; Montauban
@@ -76,7 +76,7 @@ Frigon ; Luc ; m ; 11/13/1909 ; Versailles
 Banville ; Viviane ; f ; 4/12/1904 ; Boulogne-sur-Mer
 Malenfant ; Eugénie ; f ; 7/12/1939 ; Conflans-Sainte-Honorine
 Collin ; Laure ; f ; 11/2/1922 ; Belfort
-Racine ; Gérald ; m ; 10/15/1946 ; Meaux
+Racine ; Gérald ; m ; 1946 ; Meaux
 Dunn ; Fiore ; f ; 2/14/1914 ; Lille
 Rocheleau ; Sixte ; m ; 12/10/1971 ; Boulogne-sur-Mer
 Leclerc ; Maxime ; m ; 10/23/1939 ; Carcassonne
@@ -182,11 +182,11 @@ Brunet ; Ursicin ; m ; 3/4/1967 ; Hyères
 Couturier ; Marine ; f ; 12/22/1911 ; Suresnes
 Daigle ; Lilian ; m ; 11/22/1918 ; Versailles
 García ; Gérald ; m ; 9/26/1958 ; Asnières-sur-Seine
-Morais ; Vincent ; m ; 5/10/1974 ; Saint-Leu
+Morais ; Vincent ; m ; 1974 ; Saint-Leu
 Marceau ; Dominique ; f ; 9/12/1914 ; Neuilly-sur-Seine
 Nadeau ; Fabiola ; f ; 7/8/1952 ; Argenteuil
 Lécuyer ; Narcisse ; f ; 4/26/1988 ; Angers
-Morand ; Sylvie ; f ; 3/6/1914 ; Anglet
+Morand ; Sylvie ; f ; mi 1914 ; Anglet
 Cameron ; Sixte ; m ; 8/18/1937 ; Neuilly-sur-Seine
 Fafard ; Quintille ; m ; 6/5/1937 ; Clamart
 Sénéchal ; Marine ; f ; 11/28/1981 ; Poitiers
@@ -195,7 +195,7 @@ Simoneau ; Titus ; m ; 7/15/1950 ; Le Mans
 Guilbault ; Quentin ; m ; 1/2/1990 ; Arles
 Thivierge ; Florence ; f ; 9/10/1980 ; Aubervilliers
 Carrière ; Ursicin ; m ; 2/16/1990 ; Matoury
-Wong ; Claudine ; f ; 10/2/1998 ; Perpignan
+Wong ; Claudine ; f ; fin 1998 ; Perpignan
 Audy ; Ursicin ; m ; 1/1/1912 ; Cayenne
 Dorion ; Livia ; f ; 8/11/1901 ; Albi
 Desnoyers ; Vincent ; m ; 4/27/1925 ; Épinal
