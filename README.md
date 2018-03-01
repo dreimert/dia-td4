@@ -44,8 +44,24 @@ Vos yeux.
 
 Entrainez-vous à faire des requêtes en utilisant l'exemple de code et la documentation de MongoDB : https://docs.mongodb.com/manual/crud/.
 
+Vous pouvez vous mettre en interpréter pour faire des tests plus simplement :
+
+* Lancer node sans argument.
+* Copier / coller les lignes suivantes dedans :
+
+    let Db = require('tingodb')().Db;
+    let db = new Db('./db', {});
+    let collection = db.collection("users");
+
+* Vous pouvez maintenant manipuler `collection`.
+
 Vous pouvez aussi regarder le fichier `db/users`.
 
+Vous commencez à comprendre la structure ? Il faut maintenant importer les données ! Mais comment ?
+
+* Vous pouvez copier / coller dans le code et reformater les données.
+* Lire le fichier et l'analyser avec fs : https://nodejs.org/api/fs.html
+* Utiliser une librairie écrite pour lire du csv.
 
 ## Ce que je dois retenir
 
@@ -54,6 +70,8 @@ Ne jamais faire confiances aux données brutes envoyé par un utilisateur.
 Imposez le format à l'utilisateur ou écrivez des programmes paranoïaques sur les données en entrées.
 
 Maitrisez un langage qui vous permet de manipuler facilement des données / fichiers.
+
+Dans une application distribuée, automatisez le maximum de choses. Mais parfois, ils vaux mieux faire certaines tâches à la main. La frontière entre ce qu'il faut automatiser pour gagner du temps et ce qu'il faut faire à la main est compliquée à trouver. Vous devrez faire confiance à votre expérience et votre instinct.
 
 Rajouter un peu d'analyse et de mathématique : vous avez l'activité d'un spécialiste de l'analyse de données.
 
