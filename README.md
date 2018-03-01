@@ -49,9 +49,11 @@ Vous pouvez vous mettre en interpréter pour faire des tests plus simplement :
 * Lancer node sans argument.
 * Copier / coller les lignes suivantes dedans :
 
-    let Db = require('tingodb')().Db;
-    let db = new Db('./db', {});
-    let collection = db.collection("users");
+```javascript
+let Db = require('tingodb')().Db;
+let db = new Db('./db', {});
+let collection = db.collection("users");
+```
 
 * Vous pouvez maintenant manipuler `collection`.
 
