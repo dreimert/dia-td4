@@ -13,9 +13,17 @@ collection.insert(
   function(err, result) {
     assert.equal(null, err);
 
-    // Fetch the document
+    // Fetch one document
     collection.findOne({hello:'world_safe2'}, function(err, item) {
       assert.equal(null, err);
       assert.equal('world_safe2', item.hello);
+
+      // Fetch all documents
+      collection.find({}).toArray(function(err, items) {
+        assert.equal(null, err);
+        console.log("items: ", items);
+      })
     })
+
+
 });
