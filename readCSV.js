@@ -17,12 +17,38 @@ let lignes = csv.split("\n");
 let datas = lignes.map((ligne) => ligne.split(";").map((data) => data.trim()));
 
 // je tranforme les tableaux en objects
-let objects = datas.map((data) => return {
-  nom: data[0],
-  prenom: data[1],
-  sexe: data[2],
-  birthday: data[3],
-  lieu: data[4]
+let objects = datas.map((data) => {
+  return {
+    nom: data[0],
+    prenom: data[1],
+    sexe: data[2],
+    birthday: data[3],
+    lieu: data[4]
+  }
 })
 
-console.log("datas", datas);
+// Mais il y a un problème avec les dates !
+
+let objectsDateCorrec = objects.map((object, index) => {
+  //console.log("object, index", object, index);
+  // on vérifie que birthday existe
+  if (object.birthday) {
+    // J'utilise les regexp avec des groupes de capture pour analyser la date
+    const analyse = object.birthday.match(/(\w{1,2})\/(\w{1,2})\/(\w{4})/);
+
+    // On vérifie que l'analyse donne un résultat
+    if (analyse) {
+      //console.log(analyse);
+      // je reformate la date pourinverser mois et jour
+      object.birthday = `${analyse[2]}/${analyse[1]}/${analyse[3]}`
+    } else { // sinon on en informe le développeur
+      console.error("À la ligne ", index, "birthday mal formé");
+    }
+  } else {
+    console.error("À la ligne ", index, "pas de birthday");
+  }
+
+  //object.birthday = object.birthday.match
+})
+
+//console.log("objects", objects);
