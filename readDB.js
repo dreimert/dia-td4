@@ -7,7 +7,7 @@ let db = new Db('./db', {});
 let collection = db.collection("users");
 
 // Cherche tous les utilisateurs
-collection.find({}).toArray(function(err, result) {
+collection.find({}).limit(5).toArray(function(err, result) {
   if (err) throw err;
   console.log(result);
   db.close();
