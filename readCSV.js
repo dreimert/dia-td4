@@ -29,7 +29,7 @@ let objects = datas.map((data) => {
 
 // Mais il y a un problème avec les dates !
 
-let objectsDateCorrec = objects.map((object, index) => {
+objects.forEach((object, index) => {
   //console.log("object, index", object, index);
   // on vérifie que birthday existe
   if (object.birthday) {
@@ -42,13 +42,28 @@ let objectsDateCorrec = objects.map((object, index) => {
       // je reformate la date pourinverser mois et jour
       object.birthday = `${analyse[2]}/${analyse[1]}/${analyse[3]}`
     } else { // sinon on en informe le développeur
-      console.error("À la ligne ", index, "birthday mal formé");
+      console.error("À la ligne ", index, "birthday mal formé : ", object);
+      // Vous corriger les données à la main jusqu'à ne plus avoir le message
     }
   } else {
-    console.error("À la ligne ", index, "pas de birthday");
+    console.error("À la ligne ", index, "pas de birthday : ", object);
+    // Dans ce cas, supprimez la ligne, mettez une date arbitraire, filter pour ne pas avoir de ligne vide...
   }
-
-  //object.birthday = object.birthday.match
 })
 
 //console.log("objects", objects);
+
+// Quand les données sont 'propres', importer dans la base
+
+let Db = require('tingodb')().Db;
+let assert = require('assert');
+let db = new Db('./db', {});
+let collection = db.collection("users");
+
+collection.insert(
+  objects.filter((object) => object.birthday),
+  {w:1},
+  function(err, result) {
+    assert.equal(null, err);
+  }
+)
