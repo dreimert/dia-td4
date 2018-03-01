@@ -55,15 +55,20 @@ objects.forEach((object, index) => {
 
 // Quand les données sont 'propres', importer dans la base
 
-let Db = require('tingodb')().Db;
-let assert = require('assert');
-let db = new Db('./db', {});
-let collection = db.collection("users");
+// Un autre bonne idée est d'avoir un index unique sur vos utilisateurs dans votre base de donnée.
+// Dans ce cas, l'opération suivante renvoie des exceptions car il y a des doublons.
+// Je vous laisse le soin de faire les tests pour éliminer les doublons.
+// Soit en créant un index unique soit en intérrogeant la base pour chaque utilisateur.
 
-collection.insert(
-  objects.filter((object) => object.birthday),
-  {w:1},
-  function(err, result) {
-    assert.equal(null, err);
-  }
-)
+// let Db = require('tingodb')().Db;
+// let assert = require('assert');
+// let db = new Db('./db', {});
+// let collection = db.collection("users");
+//
+// collection.insert(
+//   objects.filter((object) => object.birthday),
+//   {w:1},
+//   function(err, result) {
+//     assert.equal(null, err);
+//   }
+// )
